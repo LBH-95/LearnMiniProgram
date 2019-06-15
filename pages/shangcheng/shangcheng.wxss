@@ -1,0 +1,52 @@
+/* pages/shangcheng/shangcheng.wxss */
+ .container{
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+} 
+.kinds{
+  width: 220rpx;
+  display: flex;
+  flex-direction: column;
+}
+.kinds .bt1{
+ width: 220rpx;
+ height: 80rpx;
+ font-size: 30rpx;
+}
+.scroll{
+  display: flex;
+  flex-direction: column;
+  width: 530rpx;
+  
+}
+.scroll .item{
+  display: flex;
+  flex-direction: row;
+  width: 530rpx;
+  height: 300rpx;
+  border-bottom: 1rpx solid bisque;
+}
+.scroll .item .ima{
+  width: 250rpx;
+  height: 300rpx;
+  border: 1px solid groove;
+}
+.scroll .item .introduce{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  font-size: 30rpx;
+  width: 280rpx;
+  height: 300rpx;
+}
+.scroll .item .introduce .name{
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+ 
+}
+.scroll .item .introduce .price{
+ margin-left: 30rpx;
+ margin-bottom: 20rpx;
+
+}

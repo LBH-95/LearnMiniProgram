@@ -1,0 +1,63 @@
+<!--pages/ydcx/ydcx.wxml-->
+<view class='sec'>
+  请选择查询的城市
+</view>
+<view class='kong1'>
+  <input placeholder="四川省" class='kong1-sh'></input>
+</view>
+<view class='kong1'>
+  <input placeholder="成都市" class='kong1-sh'></input>
+</view>
+<view class='gray'>客服中心（8）</view>
+<view class='kfzx'>
+  <view class='biaoti'>
+    <image class='bt' src='../../images/biaoti01.png'></image>
+  </view>
+  <view class='text'>
+    <view class='name'>成都市客服中心</view>
+    <view class='adr'>成都市青羊区提督街58号锦阳智能通讯城二楼</view>
+    <view class='time'>09:00-17:30(休息时间：无休)</view>
+    <view class='call'>028-86516351</view>
+    <view class='map'>地图导航</view>
+  </view>
+</view>
+<view class='gr'></view>
+<view class='kfzx'>
+  <view class='biaoti'>
+    <image class='bt' src='../../images/biaoti01.png'></image>
+  </view>
+  <view class='text'>
+    <view class='name'>成都市客服中心</view>
+    <view class='adr'>成都市青羊区提督街58号锦阳智能通讯城二楼</view>
+    <view class='time'>09:00-17:30(休息时间：无休)</view>
+    <view class='call'>028-86516351</view>
+    <view class='map'>地图导航</view>
+  </view>
+</view>
+<view class='gr'></view>
+<view class='kfzx'>
+  <view class='biaoti'>
+    <image class='bt' src='../../images/biaoti01.png'></image>
+  </view>
+  <view class='text'>
+    <view class='name'>成都市客服中心</view>
+    <view class='adr'>成都市青羊区提督街58号锦阳智能通讯城二楼</view>
+    <view class='time'>09:00-17:30(休息时间：无休)</view>
+    <view class='call'>028-86516351</view>
+    <view class='map'>地图导航</view>
+  </view>
+</view>
+<view class='gr'></view>
+<view class='kfzx'>
+  <view class='biaoti'>
+    <image class='bt' src='../../images/biaoti01.png'></image>
+  </view>
+  <view class='text'>
+    <view class='name'>成都市客服中心</view>
+    <view class='adr'>成都市青羊区提督街58号锦阳智能通讯城二楼</view>
+    <view class='time'>09:00-17:30(休息时间：无休)</view>
+    <view class='call'>028-86516351</view>
+    <view class='map'>地图导航</view>
+  </view>
+</view>
+<view class='gr'></view>

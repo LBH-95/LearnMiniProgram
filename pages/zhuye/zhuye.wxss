@@ -1,0 +1,66 @@
+/* pages/zhuye/zhuye.wxss */
+.Tu{
+  width:750rpx;
+  height: 400rpx;
+}
+.Tu .oppo{
+  width:750rpx;
+  height: 400rpx;
+}
+.gray{
+  background-color:gainsboro;
+  width: 750rpx;
+  height: 15rpx;
+
+}
+.bt{
+  display: flex;
+  flex-direction: row;
+  width:750rpx;
+  height: 100rpx;
+  
+  align-items: center;
+}
+.bt .room{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 30rpx;
+}
+.bt .text{
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+.bt .go{
+  width: 180rpx;
+  height: 60rpx;
+  margin-left: 30rpx;
+}
+.navigation{
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  height: 360rpx;
+  
+}
+.navigation .bar{
+  display: flex;
+  flex-direction: row;
+
+  width: 750rpx;
+  height: 180rpx;
+  
+}
+.navigation .bar .label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250rpx;
+  height:180rpx;
+}
+.navigation .bar .label .icon{
+  width: 120rpx;
+  height:110rpx;
+}
+.navigation .bar .label .icon-text{
+  font-size: 30rpx;
+}

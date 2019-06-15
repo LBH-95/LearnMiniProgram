@@ -1,0 +1,22 @@
+<!--pages/shangcheng/shangcheng.wxml-->
+<view class='container'>
+  <view class='kinds'>
+    <button class='bt1'>全部</button>
+    <button class='bt1'>手机</button>
+    <button class='bt1'>笔记本</button>
+    <button class='bt1'>耳机</button>
+    <button class='bt1'>手机壳</button>
+    <button class='bt1'>配件</button>
+  </view>
+
+  <scroll-view scroll-y class='scroll'>
+    <view class='item'  wx:for="{{a}}" wx:key="{{item.id}}"  data-id='{{index}}' bindtap='goon00'>
+      <image class='ima' src='{{item.src}}'></image>
+      <view class='introduce'>
+        <text class='name'>{{item.name}}</text>
+        <text class='price'>{{item.price}}</text>
+      </view>
+    </view>
+  </scroll-view>
+
+</view>

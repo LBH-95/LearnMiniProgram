@@ -1,0 +1,104 @@
+/* pages/detail/detai.wxss */
+
+.scroll{
+  display: flex;
+  flex-direction:column;
+  width: 750rpx; 
+}
+.scroll .ima{
+  width: 750rpx;
+  height: 600rpx;
+  
+}
+.scroll .item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 750rpx;
+  height: 90rpx;
+}
+.scroll .item .name{
+  font-size:30rpx;
+  margin-left: 20rpx; 
+}
+.scroll .item .price{
+  font-size:25rpx;
+  margin-left: 20rpx; 
+  border-bottom: 1rpx solid gainsboro;
+}
+.scroll .sec{
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 70rpx;
+  font-size: 30rpx;
+}
+.scroll .sec .sec01{
+  width: 100rpx;
+  height: 70rpx;
+  color: gray;
+  text-align: center;
+  line-height: 70rpx;
+}
+.scroll .sec .sec02{
+  width: 100rpx;
+  height: 70rpx;
+  color: black;
+  text-align: center;
+
+  line-height: 70rpx;
+}
+.scroll .sec .Tu{
+  width: 100rpx;
+  height:70rpx;
+
+ margin-left: 500rpx;
+ 
+}
+.scroll .sec .Tu .icon{
+  width: 50rpx;
+  height:40rpx;
+  padding-top: 20rpx;
+}
+.scroll .gray{
+  width: 750rpx;
+  height: 25rpx;
+  background-color: gainsboro;
+}
+.scroll .xq{
+  width: 750rpx;
+  height: 70rpx;
+ text-align: center;
+  line-height: 70rpx;
+  border-bottom: 1rpx solid gainsboro;
+  font-size: 30rpx;
+}
+
+.gnl{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 750rpx;
+ 
+  font-size: 35rpx;
+  color: white;
+}
+.gnl .bus{
+  background: green;
+  width: 340rpx;
+  height: 70rpx;
+  text-align: center;
+  margin-left: 20rpx;
+  border-radius: 15rpx;
+  line-height: 70rpx;
+}
+.gnl .buy{
+  background: red;
+  width: 340rpx;
+  height: 70rpx;
+  text-align: center;
+  margin-right: 20rpx;
+  border-radius: 15rpx;
+  line-height: 70rpx;
+}

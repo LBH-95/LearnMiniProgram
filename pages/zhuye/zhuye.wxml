@@ -1,0 +1,45 @@
+  <view class='Tu'>
+  <image class='oppo' src='../../images/oppo.png'></image>
+</view>
+
+<view class='gray'></view>
+
+<view class='bt'>
+  <image class='room' src='../../images/room.png'></image>
+  <text class='text'>成都金牛汉路二店OPPO体验店</text>
+  <image class='go' src='../../images/go.png'></image>
+</view>
+
+<view class='gray'></view>
+
+<view class='navigation'>
+  <view class='bar'>
+    <view class='label'>
+      <image class='icon' src='../../images/icon1.png'></image>
+      <text class='icon-text'>预定查询</text>
+    </view>
+    <view class='label' bindtap='turnto'>
+      <image class='icon' src='../../images/icon2.png'></image>
+      <text class='icon-text'>服务网点查询</text>
+    </view>
+    <view class='label'>
+      <image class='icon' src='../../images/icon3.png'></image>
+      <text class='icon-text'>配件价格查询</text>
+    </view>
+  </view>
+
+  <view class='bar'>
+    <view class='label'>
+      <image class='icon' src='../../images/icon4.png'></image>
+      <text class='icon-text'>维修进度查询</text>
+    </view>
+    <view class='label'>
+      <image class='icon' src='../../images/icon5.png'></image>
+      <text class='icon-text'>延长保</text>
+    </view>
+    <view class='label'>
+      <image class='icon' src='../../images/icon6.png'></image>
+      <text class='icon-text'>预约服务</text>
+    </view>
+  </view>
+</view>

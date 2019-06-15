@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/zhuye/zhuye",
+    "pages/ydcx/ydcx",
+    "pages/shangcheng/shangcheng",
+    "pages/detail/detai",
+    
+    
+    
+    
+    "pages/index/index",
+   
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#ccc",
+    "list": [
+      {
+        "pagePath": "pages/zhuye/zhuye",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-activity.png"
+      },
+      {
+        "pagePath": "pages/shangcheng/shangcheng",
+        "text": "商城",
+        "iconPath": "images/shangcheng.png",
+        "selectedIconPath": "images/shangcheng-activity.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "images/wode.png",
+        "selectedIconPath": "images/wode-activity.png"
+      }
+    ]
+  }
+}

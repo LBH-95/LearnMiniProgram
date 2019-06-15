@@ -1,0 +1,24 @@
+<!--pages/detail/detai.wxml-->
+
+<scroll-view style='height:{{viewHeight}}' class='scroll' scroll-y>
+  <image class='ima' src='{{data.src}}'></image>
+  <view class='item'>
+    <view class='name'>{{data.name}}</view>
+    <view class='price'>{{data.price}}</view>
+  </view>
+
+  <view class='sec'>
+    <view class='sec01'>已选</view>
+    <view class='sec02'>白色</view>
+    <view class='Tu'> <image class='icon' src='../../images/arrowright.png'></image></view>
+  </view>
+  <view class='gray'></view>
+  <view class='xq'>商品详情</view>
+  <image class='xqtu' src='../../images/xq.png'></image>
+</scroll-view>
+
+
+<view class='gnl' style='height:{{tabarHeight}}' >
+  <view class='bus'>加入购物车</view>
+  <view class='buy'>立即购买</view>
+</view>

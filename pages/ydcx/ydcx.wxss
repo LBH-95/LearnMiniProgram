@@ -1,0 +1,98 @@
+/* pages/ydcx/ydcx.wxss */
+.sec{
+  font-size: 30rpx;
+  color: gainsboro;
+  margin-left: 20rpx;
+}
+.kong1{
+  width: 710rpx;
+  height: 70rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+}
+.kong1 .kong1-sh{
+  font-size: 35rpx;
+  color: black;
+  border: 1px solid #ddd;
+  padding-left: 10rpx;
+}
+.gray{
+  background-color: gainsboro;
+  width: 750rpx;
+  height: 60rpx;
+  font-size: 32rpx;
+  line-height: 60rpx;
+  padding-left: 20rpx;
+}
+.kfzx{
+  display: flex;
+  flex-direction: row;
+  width:750rpx;
+  height: 250rpx;
+ 
+}
+.kfzx .biaoti{
+ width: 50rpx;
+ height: 230rpx;
+ margin-top: 20rpx;
+ margin-left: 30rpx;
+
+}
+.kfzx .biaoti .bt{
+  width: 50rpx;
+  height: 50rpx;
+
+}
+.kfzx .text{
+  display: flex;
+  flex-direction: column;
+  width: 680rpx;
+  height: 180rpx;
+}
+
+.kfzx .text .name{
+  width: 680rpx;
+  height: 30rpx;
+  font-size: 35rpx;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+  line-height: 30rpx;
+}
+.kfzx .text .adr{
+  width: 680rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 25rpx;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+}
+.kfzx .text .time{
+  width: 680rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 25rpx;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+}
+.kfzx .text .call{
+  width: 680rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 25rpx;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+}
+.kfzx .text .map{
+  width: 680rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 25rpx;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+}
+.gr{
+  width: 750rpx;
+  height: 20rpx;
+  background-color: gainsboro;
+}

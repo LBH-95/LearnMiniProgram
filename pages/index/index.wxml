@@ -1,0 +1,31 @@
+<!--index.wxml-->
+  <view class="userinfo">
+    <view class='color'></view>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view class='gray'></view>
+
+  <view class='btl'>
+  <image class='icon' src='../../images/wode-icon1.png'></image>
+  <text class='text'>我的订单</text>
+  </view>
+  <view class='btl'>
+  <image class='icon' src='../../images/wode-icon2.png'></image>
+  <text class='text'>我的收货地址</text>
+  </view>
+  <view class='btl'>
+  <image class='icon' src='../../images/wode-icon3.png'></image>
+  <text class='text'>我的优惠券</text>
+  </view>
+  <view class='btl'>
+  <image class='icon' src='../../images/wode-icon4.png'></image>
+  <text class='text'>OPPO会员</text>
+  </view>
+  
+  
+
